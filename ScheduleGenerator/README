@@ -1,2 +1,11 @@
-Objective:
+Schedule Generator
+A software system to generate the yearly academic schedule for an entire high school.
 
+Overview
+Every year, multiple faculty spend several weeks of their time manually working out a complete academic schedule. 
+This process includes collecting data, assigning course sections to “bands”, distributing students across sections, 
+and scheduling the bands/sections to periods while avoiding teaching conflicts and accommodating various section and personal constraints. 
+Creating a schedule therefore, amounts to solving a medium-scale optimization problem with many constraints. 
+This is a classic type of problem where humans struggle, but machines can find the optimal solution by sheer brute force.
+The goal of this project is to automate as much of the process described above as possible, reducing manual work to a minimum, 
+and generating a close to optimal schedule in a fraction of the time. 
