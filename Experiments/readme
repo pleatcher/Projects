@@ -1,1 +1,5 @@
+Mostly quickly (and sometimes poorly) written code.
+Experimenting with various algorithms and datasets.
 
+Emphasis on the following modules:
+numpy, pandas, sklearn, keras
