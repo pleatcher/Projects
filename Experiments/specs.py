@@ -6,6 +6,7 @@ class Specs:
     def __init__(self):
         # Save
         self.fname = "dataset.csv"
+        self.prefix = "kepler processed "
         self.col_label = "revenue"
         self.col_group = "ticker"
         self.col_date = "date"

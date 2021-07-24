@@ -36,7 +36,7 @@ def aggregate_year(data_groups, col_label, chunk, analyze=False):
         nrows, ncols = dfg.shape
         nsteps, row_size = int((nrows-1)/chunk), chunk*ncols
         # Get labels
-        labels = np.hstack((revenue.iloc[0],revenue.iloc[1::4]))
+        labels = np.hstack((revenue.iloc[0],revenue.iloc[4::4]))
         # Get data
         data = np.empty(shape=[0, row_size])
         for i in range(nsteps):
